@@ -52,7 +52,7 @@ const init = async () => {
     {
       method: 'POST', path: '/checkAuth', config: { auth: 'jwt' },
       handler: function(request, h) {
-        console.log("++++",request);
+        console.log("++++",request.info.hostname);
         const response = h.response({message: 'You used a Valid JWT Token'});
         response.header("Authorization", request.headers.authorization);
         return response;
