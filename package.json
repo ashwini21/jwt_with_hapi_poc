@@ -1,0 +1,19 @@
+{
+  "name": "jwtinhapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^8.0.1",
+    "cookie": "^0.4.0",
+    "hapi": "^18.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "nodemon": "^2.0.1"
+  }
+}
